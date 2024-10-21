@@ -1,0 +1,224 @@
+.articles {
+  margin-top: 200px;
+}
+.article-header {
+  text-align: center;
+  padding: 20px 0;
+  color: #333;
+}
+
+.article-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.article-header p {
+  font-size: 1.2rem;
+}
+.goBackButton {
+  color: #000;
+  background: none;
+  border: none;
+  font-size: 2em;
+  cursor: pointer;
+  position: absolute;
+  top: 80px;
+  left: 10px;
+  transition: opacity 0.3s ease;
+}
+
+.goBackButton:hover {
+  opacity: 0.6;
+}
+.goBackText {
+  font-size: 0.5em;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 300px;
+}
+
+.pagination li {
+  list-style: none;
+}
+
+.pagination li a {
+  margin: 0 5px;
+  padding: 7px 12px;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  color: grey;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+.pagination li a:hover {
+  background-color: #e9ecef;
+}
+
+.pagination li.active a {
+  background-color: #28b1a4;
+  color: #fff;
+}
+/*Styling the AddArticle form*/
+.form {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  width: 80%;
+  margin: auto;
+  padding: 70px 0;
+}
+
+form input[type="text"],
+form input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+  border: 1px solid #009688;
+}
+
+form p {
+  color: red;
+  margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+  background-color: #009688;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #007766;
+}
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+  border: 1px solid #009688;
+}
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+  border: 1px solid #009688;
+  min-height: 150px;
+  resize: vertical;
+}
+
+.custom-error {
+  color: #333;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  padding: 0.25rem 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+.file-input {
+  display: none;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #009688;
+  color: white;
+  border-radius: 7px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.custom-file-upload:hover {
+  background-color: #007766;
+}
+.file-upload-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.submit-button {
+  background-color: #009688;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #007766;
+}
+.success {
+  margin-top: 50px;
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.3rem;
+}
+.file-selected {
+  background-color: rgba(0, 119, 102, 0.5);
+  color: white;
+}
+.my-select__control {
+  border: 1px solid #009688;
+  border-radius: 7px;
+  padding: 10px;
+  height: auto;
+  box-shadow: none;
+}
+
+.my-select__control:hover {
+  border-color: #009688;
+}
+
+.my-select__menu {
+  border: 1px solid #009688;
+  border-radius: 7px;
+}
+
+.my-select__option--is-focused {
+  background-color: #009688;
+  color: white;
+}
+
+.my-select__option--is-selected {
+  background-color: #009688;
+  color: white;
+}
+.modify-article {
+  margin-top: 150px;
+}
+.delete-button {
+  background-color: #009688;
+  color: white;
+  border: none;
+  padding: 6px 16px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #007766;
+}

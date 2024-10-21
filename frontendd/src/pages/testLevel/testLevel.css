@@ -1,0 +1,243 @@
+.main-page {
+  padding-top: 150px;
+}
+.test-header {
+  text-align: center;
+  padding: 20px 0;
+  color: #333;
+}
+
+.test-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.main-page__quiz-list {
+  margin-top: 50px;
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.main-page__quiz-card {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.main-page__quiz-card:hover {
+  transform: scale(1.1);
+}
+
+.main-page__quiz-card--en {
+  background: url("../../../public/assets/images/english2.jpg") no-repeat center
+    center / cover;
+}
+
+.main-page__quiz-card--fr {
+  background: url("../../../public/assets/images/french.jpg") no-repeat center
+    center / cover;
+}
+.main-page__quiz-card--sp {
+  background: url("../../../public/assets/images/spanish.jpg") no-repeat center
+    center / cover;
+}
+.main-page__quiz-card--it {
+  background: url("../../../public/assets/images/italian.jpg") no-repeat center
+    center / cover;
+}
+
+.main-page__quiz-title {
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+/*Styling the AddQuestionForm*/
+.form {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  width: 80%;
+  margin: auto;
+  padding: 70px 0;
+}
+
+form input[type="text"],
+form select,
+form input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+  border: 1px solid #009688;
+}
+
+form p {
+  color: red;
+  margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+  background-color: #009688;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #007766;
+}
+
+.custom-error {
+  color: #333;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  padding: 0.25rem 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+.add-option-button {
+  background-color: #009688;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 7px;
+  cursor: pointer;
+  margin: 20px auto;
+  display: block;
+  transition: background-color 0.3s ease;
+}
+
+.add-option-button:hover {
+  background-color: #007766;
+}
+.submit-button {
+  background-color: #009688;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #007766;
+}
+.success-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 0.5px solid transparent;
+  border-radius: 0.3rem;
+}
+.submit-button {
+  display: block;
+  margin: 0 auto;
+}
+.modify {
+  margin-bottom: 100px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modify table {
+  width: 80%;
+  margin: auto;
+  padding: 70px 0;
+  border-collapse: collapse;
+}
+
+.modify th,
+.modify td {
+  padding: 10px;
+  border: 1px solid #009688;
+  text-align: center;
+}
+
+.modify th {
+  background-color: #009688;
+  color: white;
+  text-align: center;
+}
+
+.modify td {
+  background-color: #d7f8e9;
+  color: #333;
+}
+
+.modify button {
+  background-color: #009688;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.modify button:hover {
+  background-color: #007766;
+}
+.modify div {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  margin: auto;
+  padding: 20px 0;
+}
+.modify select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+  border: 1px solid #009688;
+  background-color: #fff;
+  color: #333;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.modify select:hover {
+  background-color: #f8f8f8;
+}
+.input-field {
+  width: 100%; /* Adjust this as needed */
+}
+
+.custom-error {
+  font-size: 16px; /* Adjust this as needed */
+}
+.modify-button {
+  background-color: #009688;
+  color: white;
+  border: none;
+  padding: 11px 20px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.modify-button:hover {
+  background-color: #007766;
+}

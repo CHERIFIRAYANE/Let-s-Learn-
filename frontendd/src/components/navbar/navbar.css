@@ -1,0 +1,167 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    display:flex;
+    z-index: 900;
+    align-items:center;
+    justify-content:space-between;
+    padding: 15px 100px;
+    box-shadow: 0 .5rem 1rem rgba(35, 116, 130, 0.1);
+
+}
+
+.logo{
+    font-size:35px;
+    background: -webkit-linear-gradient(0deg,#1cc5b4,rgb(6, 41, 36));
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Black Ops One' , sans-serif;
+}
+
+.links{
+    display: flex;
+    gap: 30px;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.link{
+    font-size: 18px;
+    position: relative;
+    opacity: 0.8;
+}
+
+.link::after{
+    content: '';
+    height: 4px;
+    width: 0;
+    background-color: #1cc5b4;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    transition: all .7s;
+
+}
+
+.link:hover::after {
+    width: 100%;
+}
+
+.active{
+    color: #1cc5b4;
+}
+
+.active::before{
+    content:'';
+    height:17.5px;
+    width:25px;
+    z-index: -1;
+    background: linear-gradient(#019587,#fff);
+    position:absolute;
+    top:-8px;
+    left:4px;
+    border-top-left-radius: 17.5px;
+    border-bottom-right-radius:17.5px;
+}
+
+.login{
+    display:flex;
+    align-items:center;
+    font-size: 25px;
+}
+
+.login-button{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    margin-right: 10px;
+    background-color: #444;
+    padding: 10px 20px;
+    border: 2px solid #44cabd;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight:500;
+}
+
+.login-button:hover{
+    background-color: black;
+    border: 1px solid rgb(9, 9, 9);
+}
+
+.login-icon{
+    cursor: pointer;
+    opacity: 0.7;
+    font-size: 25px;
+    
+}
+
+.menu{
+    display: none;
+}
+
+.login-icon:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+
+@media screen and (max-width: 992px) {
+    .navbar{
+        padding: 15px 40px;
+        position: relative;
+    }
+    .logo{
+        font-size: 30px;
+    }
+    .logodiv{
+        
+        flex-grow: 0.8;
+    }
+    .links.close {
+        display: none;
+    }
+    .links.open{
+        display: inline;
+        position: absolute;
+        flex-direction: column;
+        right:30px;
+        box-shadow: 0 ;
+        bottom: -320px;
+        z-index: 999;
+        box-shadow: 0 .5rem 1rem rgba(35, 116, 130, 0.1);
+        padding: 20px;
+        background-color: whitesmoke;
+    }
+    .links.close {
+        display: none;
+    }
+    .link{
+        padding: 10px;
+    }
+    .link:not(:last-child){
+        border-bottom: 0.3px solid #a2a2a2;
+    }
+
+    .menu{
+        display: inline-block;
+    }
+    .login-button{
+        font-size: 14px;
+        padding: 7px 14px;
+
+    }
+    .login-icon{
+        font-size: 19px;
+    }
+
+  }
+
+
+  @media screen and (max-width: 500px){
+     .logo{
+        font-size: 24px;
+     }
+  }
+

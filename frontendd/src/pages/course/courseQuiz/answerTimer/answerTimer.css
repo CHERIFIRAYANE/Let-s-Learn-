@@ -1,0 +1,23 @@
+:root{
+    --primary-course: rgb(71, 209, 196);
+    --accent-course: rgb(15, 82, 103);
+    --bg-course: #ffffff;
+    --ng-accent-course: #e7e8e9;
+    --disabled-course: #9c9c9C;
+    --foreground-course: #2d264b;
+}
+.quiz-course-timer{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    border-bottom: 1px solid var(--disabled-course) ;
+} 
+
+.quiz-course-timer .course-progress{
+   height: 5px;
+   transition-duration: 0.1s;
+   width: 0;
+   transition-timing-function: linear;
+   background: red ;
+}

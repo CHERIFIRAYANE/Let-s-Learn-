@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+.articleItem-wrap {
+  display: flex;
+  flex-direction: column;
+  color: #f3f3f3;
+  justify-content: space-between;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+.articleItem-cover {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 7px;
+  margin-bottom: 0.5rem;
+  transition: filter 0.3s ease-in-out;
+  position: relative;
+}
+
+.articleItem-cover:hover {
+  filter: blur(2px);
+}
+
+.articleItem-cover::after {
+  content: "Read More";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5em;
+}
+
+.articleItem-cover:hover::after {
+  opacity: 1;
+}
+.articleItem-wrap h3 {
+  margin: 0.5rem 0 1rem 0;
+  flex-shrink: 0;
+  color: #28b1a4;
+  font-family: "Roboto", sans-serif;
+}
+
+.articleItem-desc {
+  position: relative;
+  line-height: 1.5em;
+  max-height: 4.5em;
+  overflow: hidden;
+  padding-right: 0.6rem;
+  font-size: 0.8em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #333;
+  text-overflow: ellipsis;
+  margin-bottom: 1em;
+}
+
+.articleItem-wrap footer {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  justify-content: space-between;
+}
+
+.articleItem-link {
+  text-decoration: none;
+  color: #28b1a4;
+  font-size: 0.9rem;
+  position: relative;
+  overflow: hidden;
+  font-family: "Roboto", sans-serif;
+}
+
+.articleItem-link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #28b1a4;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.articleItem-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.articleItem-author {
+  display: flex;
+  align-items: center;
+}
+
+.articleItem-author img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 0.5rem;
+}
+
+.articleItem-author p {
+  font-size: 0.6rem;
+  color: #a9a9a9;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}

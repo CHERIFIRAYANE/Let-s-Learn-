@@ -1,0 +1,97 @@
+.course-detail{
+    margin-top: 80px;
+}
+
+.course-detail-container{
+    padding: 20px;
+}
+
+.course-detail-container h1{
+    padding: 20px;
+}
+
+.course-detail-container .vedio-course{
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0 5%;
+}
+
+.course-detail-container .text-course{
+    width: 70%;
+}
+
+.test-course-level{
+    margin-top: 20px;
+    border: 2px solid #1cc5b4;
+    padding: 30px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.test-course-level h1{
+    margin-bottom: 20px;
+}
+
+.test-course-level .btn-quiz{
+    border: 2px solid rgb(44, 144, 144);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 21px;
+    font-weight: 500;
+    
+}
+
+.test-course-level .btn-quiz:hover{
+    background-color: rgb(48, 134, 134);
+    
+    color: white;
+    
+}
+
+
+@media screen and (max-width:1000px){
+    .course-detail{
+        margin-top: 10px;
+    }
+
+}
+
+@media screen and (max-width:800px){
+    .course-detail{
+        margin-top: 10px;
+    }
+    .course-detail-container h1{
+        font-size: 20px;
+    }
+
+    .course-detail-container h2{
+        font-size: 18px;
+    }
+    .course-detail-container .text-course{
+        width: 100%;
+    }
+    .course-detail-container{
+        padding: 15px;
+    }
+    .test-course-level{
+        width: 70%;
+        padding: 20px;
+    }
+    .course-detail-container .vedio-course{
+        padding: 0 2%;
+    }
+    .test-course-level h1{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .test-course-level .btn-quiz{
+        border: 1px solid rgb(44, 144, 144);
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 18px;
+        font-weight: 500;
+        
+    }
+
+
+}

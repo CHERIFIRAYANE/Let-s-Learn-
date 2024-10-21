@@ -1,0 +1,100 @@
+.container{
+    padding: 10%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #efefef;
+    /* background-image: url(../../../assets/backcourse.jpg); */
+    background-position: center;
+    background-size: center;
+}
+
+.sous-container{
+    text-align: center;
+}
+.sous-container h1{
+    color: black;
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+
+
+.row{
+    display: flex;
+    margin: 10px;
+}
+
+.box-lang{
+height: 300px;
+background-size: cover;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+font-size: 40px;
+text-shadow: 5px 5px 10px #1cc5b4, -5px -5px 10px #1cc5b4;
+cursor: pointer;
+
+}
+
+.box-lang:hover{
+  
+    filter:invert(0.1)
+
+}
+
+.spanish{
+    width: 300px;
+    clip-path: polygon(0 0, 96% 0, 100% 50%, 95% 100%, 0 100%, 0 52%);
+    background-image: url(../../../assets/spain.jpg);
+}
+
+.german{
+    width: 450px;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 100%, 0 100%, 3% 49%);
+    background-image: url(../../../assets/germany.jpg);
+}
+
+.french{
+    width: 450px;
+    clip-path: polygon(0 0, 100% 0, 96% 100%, 0 100%);
+    background-image: url(../../../assets/france.jpg);
+
+}
+
+.italian{
+    width: 300px;
+    clip-path: polygon(6% 0, 100% 0, 100% 100%, 0 100%);
+    background-image: url(../../../assets/italy.jpg);
+
+}
+
+@media screen and (max-width:750px){
+    .sous-container h1{
+        font-size: 25px;
+    }
+    .box-lang{
+        height: 150px;
+        
+        }
+    .spanish{
+        width: 150px;
+    }
+    
+    .german{
+        width: 225px;
+    }
+    
+    .french{
+        width: 225px;
+    
+    }
+    
+    .italian{
+        width: 150px;
+    
+    }
+
+}

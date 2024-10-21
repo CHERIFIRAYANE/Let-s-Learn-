@@ -1,0 +1,22 @@
+.container-map{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    padding: 100px;
+    /* height: 100vh; */
+    background-color: #efefef;
+    font-size: 30px;
+    /* background-image: url(../../../assets/backcourse.jpg); */
+    background-position: center;
+    background-size: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width:1000px){
+    .container-map{
+        font-size: 10px;
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
+}

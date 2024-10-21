@@ -1,0 +1,98 @@
+export const data = [
+  {
+    id: 1,
+    title: "The 11 Best English Vocabulary Books For English Learners",
+    category: "English",
+    subCategory: ["Grammar", "Discovery", "Insights"],
+    description:
+      "There are so many words in English.And there are so many vocabulary books to help you learn those words.Let me help you select the best English vocabulary books.Here are my 11 favourite ones. I love these! And I hope you’ll love them too!",
+    authorName: "John Doe",
+    authorAvatar: "/assets/images/four.jpg",
+    createdAt: "June 03, 2021",
+    cover: "/assets/images/one.jpg",
+  },
+  {
+    id: 2,
+    title: "16 Things The English Language Can’t Do",
+    category: "English Facts",
+    subCategory: ["Facts", "Learning", "Insights"],
+    description:
+      "I love the English language, but I must admit that there are some things that other languages do better.I mean, does English give you a built-in compass? Does it help you show respect with one syllable or prove that something is true because you saw (not heard) it?",
+    authorName: "David Moore",
+    authorAvatar: "/assets/images/five.jpg",
+    createdAt: "June 03, 2021",
+    cover: "/assets/images/two.jpg",
+  },
+  {
+    id: 4,
+    title: "Which Arabic Should I Learn? A Complete Guide",
+    category: "Arabic",
+    subCategory: ["Discover Arabic", "New Language", "Learning"],
+    description:
+      "Are you thinking about learning Arabic? And wondering – which Arabic should I learn? You’ve come to the right place! There are a lot of different variations of Arabic. But that’s not all. These dialects are sometimes very different from one another.might present you with a dilemma on which type of Arabic you want to master. So this post is for you: to help you have all the information you need to decide on which type of Arabic you want to learn.",
+    authorName: "John Snow",
+    authorAvatar: "/assets/images/six.jpg",
+    createdAt: "June 03, 2021",
+    cover: "/assets/images/three.jpg",
+  },
+  {
+    id: 1,
+    title: "100 Essential English Verbs For Fluent English Communication",
+    category: "Advanced English",
+    subCategory: ["Grammar", "Advanced", "Learn More"],
+    description:
+      "There are thousands of English verbs.But what are some of the most used ones? Which should you make sure you know?Here are 100 English verbs worth knowing – and they’re not all the most common ones. Some are less common, but still very useful. And they’re all important if you’re keen to master fluent English communication.",
+    authorName: " Richal Wilerson",
+    authorAvatar: "/assets/images/po2.jpg",
+    createdAt: "June 03, 2021",
+    cover: "/assets/images/p1.jpg",
+  },
+  {
+    id: 2,
+    title: "Why is Arabic one of the hardest languages in the world?",
+    category: "Arabic Facts",
+    subCategory: ["Facts", "Learning", "Arabic"],
+    description:
+      "Why arabic is one of the hardest languages in the world , in this article , we will dive in more details to know more about the history of the language and some tips and tricks to get started in your learning journey",
+    authorName: "David Wood",
+    authorAvatar: "/assets/images/po1.jpg",
+    createdAt: "June 03, 2021",
+    cover: "/assets/images/p2.jpg",
+  },
+  {
+    id: 4,
+    title: "Which Arabic Should I Learn? A Complete Guide",
+    category: "Arabic",
+    subCategory: ["Discover Arabic", "New Language", "Learning"],
+    description:
+      "Are you thinking about learning Arabic? And wondering – which Arabic should I learn? You’ve come to the right place! There are a lot of different variations of Arabic. But that’s not all. These dialects are sometimes very different from one another.might present you with a dilemma on which type of Arabic you want to master. So this post is for you: to help you have all the information you need to decide on which type of Arabic you want to learn.",
+    authorName: "John Snow",
+    authorAvatar: "/assets/images/six.jpg",
+    createdAt: "June 03, 2021",
+    cover: "/assets/images/three.jpg",
+  },
+  {
+    id: 1,
+    title: "100 Essential English Verbs For Fluent English Communication",
+    category: "Advanced English",
+    subCategory: ["Grammar", "Advanced", "Learn More"],
+    description:
+      "There are thousands of English verbs.But what are some of the most used ones? Which should you make sure you know?Here are 100 English verbs worth knowing – and they’re not all the most common ones. Some are less common, but still very useful. And they’re all important if you’re keen to master fluent English communication.",
+    authorName: " Richal Wilerson",
+    authorAvatar: "/assets/images/po2.jpg",
+    createdAt: "June 03, 2021",
+    cover: "/assets/images/p1.jpg",
+  },
+  {
+    id: 2,
+    title: "Why is Arabic one of the hardest languages in the world?",
+    category: "Arabic Facts",
+    subCategory: ["Facts", "Learning", "Arabic"],
+    description:
+      "Why arabic is one of the hardest languages in the world , in this article , we will dive in more details to know more about the history of the language and some tips and tricks to get started in your learning journey",
+    authorName: "David Wood",
+    authorAvatar: "/assets/images/po1.jpg",
+    createdAt: "June 03, 2021",
+    cover: "/assets/images/p2.jpg",
+  },
+];

@@ -1,0 +1,61 @@
+.footer {
+  margin-bottom: 0;
+  padding-top: 10px;
+  border-top: 1px solid #28b1a4;
+}
+
+.footer .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.footer .box-container .box {
+  flex: 1 1 10rem;
+  padding: 0 100px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #28b1a4;
+}
+
+.footer .box-container .box h3 {
+  color: #333;
+  font-size: 1.3rem;
+  padding: 1rem 0;
+}
+
+.footer .box-container .box .link1 {
+  display: block;
+  color: #666;
+  font-size: 0.7rem;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.footer hr {
+  margin: auto;
+  width: 80%;
+  margin-top: 150px;
+  margin-bottom: 70px;
+  border-top: 1px solid #28b1a4;
+}
+
+.footer .box-container .box .link1:hover {
+  color: #009688;
+  text-decoration: underline;
+}
+
+.footer .box-container .box img {
+  margin-top: 1rem;
+  height: 4rem;
+}
+
+.footer .credit {
+  text-align: center;
+  padding: 1rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  font-size: 1.5rem;
+  color: #333;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+}
